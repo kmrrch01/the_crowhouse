@@ -1,26 +1,20 @@
 {
-  "name": "webring",
-  "version": "0.1.0",
-  "description": "A boilerplate for hosting a webring community",
-  "author": "Max Böck",
-  "license": "MIT",
+  "name": "the_crowhouse",
+  "version": "1.0.0",
+  "description": "CAW CAW CAW CAW CAW CAW CAW",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/maxboeck/webring"
+    "url": "git+https://github.com/kmmrch01/the_crowhouse.git"
   },
-  "scripts": {
-    "start": "ELEVENTY_ENV=development eleventy --serve",
-    "build": "ELEVENTY_ENV=production eleventy && npm run build:lambda",
-    "serve:lambda": "netlify-lambda serve _lambda",
-    "build:lambda": "netlify-lambda build _lambda"
+  "author": "MrCrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmmrch01/the_crowhouse/issues"
   },
-  "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "clean-css": "^4.2.3",
-    "cssesc": "^3.0.0",
-    "html-minifier": "^4.0.0",
-    "netlify-lambda": "^1.6.3",
-    "node-sass": "^4.14.1"
-  }
+  "homepage": "https://github.com/kmmrch01/the_crowhouse#readme"
 }
